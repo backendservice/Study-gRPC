@@ -1,4 +1,4 @@
-# Study_Restful
+# Study gRPC
 
 Visual Studio Code
 
