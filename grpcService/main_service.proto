@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package grpcService;
+
+service DataEngine {
+    rpc GetUser (GetUserRequest) returns (GetUserReplay) {}
+}
+
+message GetUserRequest {
+    int32 Serial = 1;
+}
+
+message GetUserReplay {
+    string UserId = 1;
+}
